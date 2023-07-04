@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #192bcd;
+}
+.container{
+    border: 8px solid #2499cb;
+    background-color: #fff;
+    width: 500px;
+    height: 900px;
+   margin-left: 450px;
+}
+.controles h1{
+     position: absolute;
+     top: 70px;
+     left: 550px;
+     font-size: 50px;
+
+}
+.controles h1 span{
+    margin-left: 50px;
+}
+.controles h1 .span{
+    margin-left: 50px;
+}
+.controles input{
+    position: absolute;
+    top: 250px;
+    left: 530px;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+}
+#Add{
+    position: absolute;
+    top: 330px;
+    background-color: #2124dc;
+    color:#fff ;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+#Remove{
+    position: absolute;
+    top: 400px;
+    background-color: #c11414;
+    color:#fff ;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+#List{
+    position: absolute;
+    top: 480px;
+    left: 530px;
+    list-style: none;
+}
+#mycheckbox{
+    border: 2px solid #c1c1c1;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
